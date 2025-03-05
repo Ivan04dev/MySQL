@@ -1,0 +1,14 @@
+-- Inserción  de un registro
+INSERT INTO usuarios (nombre, email, password)
+VALUES ("Ivan David Delgado Garcia", "ivandelgadogarcia04@gmail.com", "#Dirlsdirls!!4");
+
+-- Inserción múltiple
+INSERT INTO usuarios (nombre, email, password) 
+VALUES 
+    ("Juan Pérez", "juanperez@email.com", "clave123"),
+    ("María López", "marialopez@email.com", "segura456"),
+    ("Carlos Gómez", "carlosgomez@email.com", "contraseña789");
+
+-- Mediantes un archivo 
+mysql -u tu_usuario -p tu_base_de_datos < C:\ruta\del\archivo\registros.sql
+ 
